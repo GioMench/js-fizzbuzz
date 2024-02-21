@@ -4,7 +4,7 @@
 - i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi “Buzz”. 
 - Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
-    - creo una costante elementList
+    - creo una costante ulElement
     - creo un ciclo con for per stampare da 1 a 100 gli elementList
     - se elementList = multiplo di 5, 3 o di entrembi stampo una costante = "Buzz", "Fizz" o "FizzBuzz"
 
