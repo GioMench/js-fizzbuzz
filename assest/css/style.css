@@ -1,0 +1,34 @@
+main{
+    background-color: rgb(255, 201, 183);
+    
+}
+
+h1{
+    color: rgba(139, 0, 0, 0.667);
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    color: white;
+    margin: 5px;
+    padding: 28px 0;
+}
+
+.other{
+    background-color: darkred;
+}
+
+.fizz{
+    background-color: crimson;
+}
+
+.buzz{
+    background-color: rgb(210, 84, 30);
+}
+
+.fizzbuzz{
+    background-color: palevioletred;
+}
