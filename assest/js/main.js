@@ -5,27 +5,32 @@ let ulElement = document.getElementById("list");
 for (let i = 1; i < 101; i++) {
     //console.log(i);
 
-    // document.createElement()
-    // append()
+    if (i % 3 === 0 && i % 5 === 0) {
+        //console.log('fizzbuzz');
+        const both = document.createElement('li');
+        both.innerText = 'FizzBuzz';
+        ulElement.append(both)
+        
 
-    // const li = document.createLement("li")
-    //li.
+    } else if (i % 3 === 0) {
+        //console.log('fizz');
+        const three = document.createElement('li');
+        three.innerText = 'Fizz';
+        ulElement.append(three)
 
-    // ullElement.append(elemntoLiCreatoSopra)
- 
+    } else if (i % 5 === 0) {
+        //console.log('buzz');
+        const five = document.createElement('li');
+        five.innerText = 'Buzz';
+        ulElement.append(five)
 
-    if(i % 3 === 0 && i % 5 === 0){
-        console.log('fizzbuzz');
-    } else if (i % 3 === 0){
-        console.log('fizz');
-    } else if(i % 5 === 0){
-        console.log('buzz');
-    } else{
-        console.log(i);
+    } else {
+        const other = document.createElement('li');
+        other.innerText = i ;
+        ulElement.append(other)
     }
+
     
-    let markupElement = `<li> ${i} </li>`
-    ulElement.insertAdjacentHTML("beforeend", markupElement)
 
 }
 
